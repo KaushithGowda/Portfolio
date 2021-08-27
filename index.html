@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaushith Gowda</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3\bootstrap-4.5.3\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1 style="background-color: red;color: white;">Hello World!</h1> -->
+    <div class="main-con">
+        <div class="nav">
+            <header>
+                <nav>
+                    <div class="nav-toggler">
+                        <a href="#">
+                            <div class="nav-toggle-ele">Home</div>
+                        </a>
+                        <a href="#">
+                            <div class="nav-toggle-ele">Skills</div>
+                        </a>
+                        <a href="#">
+                            <div class="nav-toggle-ele">Projects</div>
+                        </a>
+                        <a href="#">
+                            <div class="nav-toggle-ele">Contact</div>
+                        </a>
+                        <a href="#">
+                            <div class="nav-toggle-ele">Admin</div>
+                        </a>
+                    </div>
+                    <div class="nav-con">
+                        <span>
+                            <h3 class="name">Kaushith Gowda</h3>
+                        </span>
+                        <span class="header-icon">
+                            <a target="_blank" href="https://github.com/KaushithGowda"><i
+                                    class="git-pos fab fa-github fa-2x" id="git"></i></a>
+                        </span>
+                        <span class="header-icon">
+                            <a target="_blank"
+                                href="https://www.linkedin.com/in/koushith-gowda-8aa909183/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BMjRSDiZwSHe9159KE7kSeg%3D%3D"><i
+                                    class="linkedin-pos fab fa-linkedin-in fa-2x" id="linkedin"></i></a>
+                        </span>
+                        <span class="header-icon">
+                            <a href="mailto:koushith7@gmail.com"><i class="gmail-pos fas fa-envelope fa-2x"
+                                    id="gmail"></i></a>
+                        </span>
+                        <span id="icon" class="menuToggle nav-icon">
+                            <input type="checkbox" />
+                            <span id="span1"></span>
+                            <span id="span2"></span>
+                            <span id="span3"></span>
+                        </span>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div class="scroll-bar">
+            <hr onclick="first_callback()" class="first-bar bar">
+            <hr onclick="second_scroll()" class="second-bar bar">
+            <hr onclick="third_scroll()" class="third-bar bar">
+            <hr onclick="fourth_scroll()" class="fourth-bar bar">
+        </div>
+        <div class="con con-1 first-con" id="con-flex">
+            <div></div>
+            <div class="con-anime-flex">
+                <div id="background-image">
+                </div>
+                <div>
+                    <div class="about-heading-flex">
+                        <div class="about-me">About Me
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="typer-flex" id="destroy">
+                        <div id="typed6"></div>
+                        <div id="typed3"></div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div class="con second-con" id="second">
+            <div class="skills">
+                Skills
+                <div class="skills-line-1"></div>
+                <div class="skills-line-2"></div>
+            </div>
+            <div class="skills-tec">
+                <div class="html-con">
+                    <i id="html-big" class="fab fa-5x fa-html5"></i>
+                    <i id="html-small" class="fab fa-2x fa-html5"></i>
+                    <div>HTML</div>
+                </div>
+                <div class="css-con">
+                    <i id="css-big" class="fab fa-5x fa-css3-alt"></i>
+                    <i id="css-small" class="fab fa-2x fa-css3-alt"></i>
+                    <div>CSS</div>
+                </div>
+                <div class="bootstrap-con">
+                    <i id="bootstrap-big" class="fab fa-5x fa-bootstrap"></i>
+                    <i id="bootstrap-small" class="fab fa-2x fa-bootstrap"></i>
+                    <div>BOOTSTRAP</div>
+                </div>
+                <div class="javascript-con">
+                    <i id="js-big" class="fab fa-5x fa-js-square"></i>
+                    <i id="js-small" class="fab fa-2x fa-js-square"></i>
+                    <div>JAVASCRIPT</div>
+                </div>
+                <div class="angular-con">
+                    <i id="angular-big" class="fab fa-5x fa-angular"></i>
+                    <i id="angular-small" class="fab fa-2x fa-angular"></i>
+                    <div>ANGULAR</div>
+                </div>
+                <div class="java-con">
+                    <i id="java-big" class="fab fa-5x fa-java"></i>
+                    <i id="java-small" class="fab fa-2x fa-java"></i>
+                    <div>JAVA</div>
+                </div>
+                <div class="servlets-con">
+                    <i id="java-big" class="fab fa-5x fa-java"></i>
+                    <i id="java-small" class="fab fa-2x fa-java"></i>
+                    <div>SERVLETS <br> & JDBC</div>
+                </div>
+                <div class="hibernate-con">
+                    <i id="java-big" class="fab fa-5x fa-java"></i>
+                    <i id="java-small" class="fab fa-2x fa-java"></i>
+                    <div>HIBERNATE <br> & SPRING</div>
+                </div>
+                <div class="database-con">
+                    <i id="database-big" class="fas fa-5x fa-database"></i>
+                    <i id="database-small" class="fas fa-2x fa-database"></i>
+                    <div>MySql</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="con third-con" id="third">
+            <div class="project">
+                Projects
+                <div class="projects-line-1"></div>
+                <div class="projects-line-2"></div>
+            </div>
+            <div class="project-con">
+                <div class="project-card">
+                    <div id="sample1" class="project-image"></div>
+                    <div></div>
+                    <div class="project-title">
+                        Title
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="project-desc">Lorem ipsum dolor sit amet consectetur
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div id="sample2" class="project-image"></div>
+                    <div></div>
+                    <div class="project-title">
+                        Title
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="project-desc">Lorem ipsum dolor sit amet consectetur
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div id="sample3" class="project-image"></div>
+                    <div></div>
+                    <div class="project-title">
+                        Title
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="project-desc">Lorem ipsum dolor sit amet consectetur
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div id="sample4" class="project-image"></div>
+                    <div></div>
+                    <div class="project-title">
+                        Title
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="project-desc">Lorem ipsum dolor sit amet consectetur
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#" class="anchor more-anchor">
+                        <div>
+                            More
+                        </div>
+                        <div>
+                            <i class="fas fa-1x fa-angle-double-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="con fourth-con" id="fourth">
+            <div>
+                <embed src="pdf\Kaushith Gowda Mahadevaiah.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"
+                    width="100%" height="600px" />
+            </div>
+        </div>
+
+        <div class="con">
+            <h2 id="bottom">Projects</h2>
+            <div class="projects">
+                <!-- projects -->
+                <div class="cards">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora assumenda, quo iste ipsum
+                    soluta voluptas ipsam. Harum, quis incidunt quia facilis, fugit laborum doloribus illum doloremque
+                    eveniet illo rem?
+                </div>
+                <div class="cards">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestias, earum corrupti nesciunt
+                    voluptas in reprehenderit, consequuntur eum fuga facilis minus assumenda placeat neque iusto
+                    recusandae pariatur dolorem amet debitis.
+                </div>
+                <div class="cards">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestias, earum corrupti nesciunt
+                    voluptas in reprehenderit, consequuntur eum fuga facilis minus assumenda placeat neque iusto
+                    recusandae pariatur dolorem amet debitis.
+                </div>
+            </div>
+        </div>
+
+        <div class="con">
+            <!-- Contact -->
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <div class="container-fluid contact">
+                    <div class="input-field">
+                        <input placeholder="Name" type="text" name="name">
+                    </div> <br>
+                    <div class="input-field">
+                        <input placeholder="Email" type="text" name="email">
+                    </div><br>
+                    <div class="input-field">
+                        <input placeholder="Subject" type="text" name="subject">
+                    </div><br>
+                    <div class="input-field">
+                        <textarea placeholder="Message" rows="5" cols="22" name="message"></textarea>
+                    </div><br>
+                    <div>
+                        <input id="submit-btn" type="submit" name="submit" value="Send Message">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+        <div class="con">
+            <footer>
+                <br>
+                <h2>Connect</h2>
+                <div class="footer">
+                    <div class="icons">
+                        <a target="_blank" href="https://github.com/KaushithGowda"><i class="fab fa-github fa-4x"
+                                id="git"></i></a>
+                    </div>
+                    <div class="icons">
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/koushith-gowda-8aa909183/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BMjRSDiZwSHe9159KE7kSeg%3D%3D"><i
+                                class="fab fa-linkedin-in fa-4x" id="linkedin"></i></a>
+                    </div>
+                    <div class="icons">
+                        <a href="mailto:koushith7@gmail.com"><i class="fas fa-envelope fa-4x" id="gmail"></i></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <h3>&copy ALL RIGHTS RESERVED 2021</h3>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="http://code.jquery.com/jquery-1.7.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="script.js"></script>
+    <script src="typescript.js"></script>
+    <script src="https://kit.fontawesome.com/54b2298997.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
